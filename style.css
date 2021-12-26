@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(data-science.jpg);
+    background-size: cover;
+}
+
+.container {
+    overflow: hidden;
+    width: 50vw;
+    height: 70vh;
+    margin: 60px auto;
+    background-image: url(wp2785842.jpg);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    background-size: cover;
+}
+
+.container legend {
+    color: crimson;
+}
+
+.login {
+    padding: 50px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.form input {
+    padding: 4px 2px;
+    margin: 4px;
+    font-size: 20px;
+    outline: none;
+    background-color: #dfdf72;
+    border-radius: 5px;
+}
+
+.form input:hover {
+    background-color: #fffff9;
+}
+
+.form .child3 {
+    position: relative;
+    right: -17px;
+}
+
+h3 {
+    color: #fdfdfd;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-align: center;
+    font-size: 22px;
+    padding: 4px;
+    background-color: rgb(10, 17, 3);
+}
+
+h3 span {
+    color: rgb(251, 255, 0);
+}
+
+#loginBtn {
+    all: unset;
+    padding: 7px 13px;
+    border-radius: 10px;
+    font-size: 19px;
+    background-color: rgb(39, 39, 218);
+    color: #ffffff;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#loginBtn:hover {
+    background-color: #030392;
+    cursor: not-allowed;
+}
